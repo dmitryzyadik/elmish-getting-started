@@ -3,6 +3,9 @@ module App
 open Elmish
 open Elmish.React
 open Feliz
+open Zanaptak.TypedCssClasses
+
+type Bulma = CssClasses<"https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
 
 type TodoId = TodoId of System.Guid
 
